@@ -71,7 +71,7 @@ $ python train.py --model SRResNet_PDAM --scale 2 --batchSize 32 --pretrained ./
 $ python train.py --model RCAN_PDAM --scale 2 --batchSize 8 --pretrained ./ckpt/RCAN/pretrain_statedictx2.pt
 ```
 ### Results
-![image](https://...)
+![image](https://github.com/JiawangDan/DFAM/blob/main/fig/results1.png)
 
 ### Citation
 ```
