@@ -54,7 +54,7 @@ $ cd data/test && python generate_testset.py
 3. Other benchmark datasets can be downloaded in [Middlebury](https://vision.middlebury.edu/stereo/), [KITTI2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) and [KITTI2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo). Please put all the datasets in `data` directory.
 
 ### Test Pretrained Models
-We provide the pretrained models in `ckpt` directory. To test DFAM on benchmark dataset:
+We provide the pretrained models in [ckpt](链接：https://pan.baidu.com/s/1gwBtig-SIOzrpEyMczLfkw) (提取码：1234) directory. To test DFAM on benchmark dataset:
 ```shell
 $ python test.py --model VDSR_DFAM --scale 4 --dataset middlebury --upsample --rgb2y --checkpoint ckpt/VDSR_DFAM/VDSR_DFAM_x4.pth --device cuda
 $ python test.py --model SRCNN_DFAM --scale 4 --dataset middlebury --upsample --rgb2y --checkpoint ckpt/SRCNN_DFAM/SRCNN_DFAM_x4.pth --device cuda
