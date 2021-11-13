@@ -75,9 +75,11 @@ $ python train.py --model RCAN_PDAM --scale 2 --batchSize 8 --pretrained ./ckpt/
 
 ### Citation
 ```
-@article{
+@article{dan2021disparity,
   title={A Disparity Feature Alignment Module for Stereo Image Super-Resolution},
-  author={Jiawang Dan, Zhaowei Qu, Xiaoru Wang, and Jiahang Gu},
-  year={2021}
+  author={Dan, Jiawang and Qu, Zhaowei and Wang, Xiaoru and Gu, Jiahang},
+  journal={IEEE Signal Processing Letters},
+  year={2021},
+  publisher={IEEE}
 }
 ```
